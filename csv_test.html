@@ -1,0 +1,15 @@
+<html>
+<style>
+form{
+  margin-top:300px;
+  text-align:center;
+}
+
+</style>
+   <body>
+      <form action = "{{ url_for('download') }}" method = "GET">
+         <p> Delay:  <input type = "value" name = "delay" /> </p>
+         <p> <input type = "submit" value = "Submit" /> </p>
+      </form>
+   </body>
+</html>

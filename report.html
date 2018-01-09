@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+   <body>
+
+      <table border = 1>
+         <thead>
+            <td>Count</td>
+            <td>Delay</td>
+            <td>TimeStamp</td>
+            <td>IPAddress</td>
+            <td>User Agent</td>
+         </thead>
+
+         {% for row in rows %}
+            <tr>
+               <td>{{row["count"]}}</td>
+               <td>{{row["delay"]}}</td>
+               <td> {{ row["rtime"]}}</td>
+               <td>{{row['ipaddress']}}</td>
+                <td>{{row['useragent']}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+
+
+
+   </body>
+</html>
