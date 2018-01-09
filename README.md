@@ -23,4 +23,6 @@ o	Record the number of times that the file is downloaded.
 
 •	[Bonus] What is the first thing you would do in order to “scale” this app up to 1MM possible users?
 
+Stack: Flask (Python), NGNIX, AWS EC2, HTML. 
+
 
